@@ -1,0 +1,27 @@
+{
+  "name": "sentinel-ai",
+  "version": "1.0.0",
+  "description": "SENTINEL-AI: AI/ML-Enabled Adaptive Audio Noise Suppression System (DRDO SIH26052)",
+  "private": true,
+  "scripts": {
+    "start:backend": "python backend/main.py",
+    "start:frontend": "cd frontend && npm.cmd run dev",
+    "test:backend": "python backend/tests/run_tests.py",
+    "test:pytest": "python -m pytest backend/tests",
+    "build:frontend": "cd frontend && npm.cmd run build",
+    "edge:benchmark": "python backend/sentinel_edge.py --benchmark-only"
+  },
+  "keywords": [
+    "drdo",
+    "sih2026",
+    "speech-enhancement",
+    "noise-suppression",
+    "deepfilternet",
+    "edge-ai",
+    "raspberry-pi",
+    "fastapi",
+    "react"
+  ],
+  "author": "SENTINEL-AI Team",
+  "license": "Apache-2.0"
+}
